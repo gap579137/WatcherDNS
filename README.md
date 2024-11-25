@@ -1,8 +1,8 @@
-# ![](docs/images/icon32.png) SnitchDNS
+# ![](docs/images/icon32.png) WatcherDNS
 
-SnitchDNS is a database driven DNS Server with a Web UI, written in Python and [Twisted](https://github.com/twisted/twisted), that makes DNS administration easier with all configuration changed applied instantly without restarting any system services.
+WatcherDNS is a database driven DNS Server with a Web UI, written in Python and [Twisted](https://github.com/twisted/twisted), that makes DNS administration easier with all configuration changed applied instantly without restarting any system services.
 
-One of its main features is the logging of all DNS queries allowing the discovery of network traffic endpoints, and it can also be used to implement canary tokens as it supports notifications via e-mail, web push, Slack, and Teams. Red teamers can also use SnitchDNS to monitor phishing domains for sandboxes, integrate with SIEM solutions, restrict responses to specific IP ranges, egress data via a DNS tunnel and catch-all domains, and more.
+One of its main features is the logging of all DNS queries allowing the discovery of network traffic endpoints, and it can also be used to implement canary tokens as it supports notifications via e-mail, web push, Slack, and Teams. Red teamers can also use WatcherDNS to monitor phishing domains for sandboxes, integrate with SIEM solutions, restrict responses to specific IP ranges, egress data via a DNS tunnel and catch-all domains, and more.
 
 * [Installation](#installation)
   * [Update to Latest Version](docs/setup/update.md)
@@ -81,7 +81,7 @@ For screenshots [see here](docs/general/screenshots.md)
   
 ## Use Cases
 
-SnitchDNS can be used for:
+WatcherDNS can be used for:
 
 * A DNS Forwarding Server - Allowing you to monitor all requests via a Web GUI.
 * Red Teams - Implement IP restrictions to block sandboxes, monitor phishing domain resolutions and e-mails, and restrict access to known IP ranges.
@@ -95,7 +95,7 @@ For more details on scenarios please see the [Use Cases Document](docs/general/u
 
 ## Limitations
 
-* SnitchDNS currently runs in a single-thread, therefore may not be suitable for environments with hundreds of DNS requests per minute.
+* WatcherDNS currently runs in a single-thread, therefore may not be suitable for environments with hundreds of DNS requests per minute.
 
 ## Contributing
 
@@ -103,7 +103,7 @@ If you wish to contribute pull requests, feature requests, and bug reports - fee
 
 ## Security
 
-If you identify any security vulnerabilities within SnitchDNS, for the time being please contact me on twitter - [@sadreck](https://twitter.com/sadreck)
+If you identify any security vulnerabilities within WatcherDNS, for the time being please contact me on twitter - [@sadreck](https://twitter.com/sadreck)
 
 ## Credits
 
